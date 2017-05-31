@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <Authors>Marcin Markowski</Authors>
+    <Company />
+    <Product>Sollertes.Bdd</Product>
+    <Description>Shouldly extensions for Sollertes.BDD</Description>
+    <PackageReleaseNotes>Extensions for exception asserts</PackageReleaseNotes>
+    <PackageId>Sollertes.Bdd.Shouldly</PackageId>
+    <PackageProjectUrl>https://github.com/Sollertes/BDD</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Sollertes/BDD</RepositoryUrl>
+    <PackageTags>Bdd, Tests, C#, Shouldly</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Shouldly" Version="2.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sollertes.Bdd\Sollertes.Bdd.csproj" />
+  </ItemGroup>
+
+</Project>
